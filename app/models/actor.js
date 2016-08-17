@@ -1,5 +1,5 @@
 var mongo_url = 'mongodb://localhost/myapp_db';
-
+mongodb://kay:Lucky1803@ds161175.mlab.com:61175/my_apps
 var mongoose = require('mongoose');
 mongoose.Promises = global.Promise;
 mongoose.connect(mongo_url);
