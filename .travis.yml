@@ -1,2 +1,9 @@
 language: node_js
-node_js:
+node_js: 
+deploy:
+  provider: heroku
+  api_key:
+    secure: e2wUU9LT2d2kOTt/XTstkJOoNHOIluYAzhzOHafJzwvltXHxkxtTM4fePd6+l7UzfcxePN0c8Rk6sQXzpi0XOJ83bigCWP8XgX+T0syRzm2j36ONp8eZEj8q6LH5N1xCEJqHegzctHLvdwDsmB1fAc+1+MV6qD7VaUrJv3vHe2gW6mKb5n46tWXbKlTe+liF2/4NuU+r6mTAC0/dKUpIM8VNiQnKtRYziK3PnHTHlk0I0VP5JBWeGnQrPPetD4E8omegdiRxZjvqLnW9AttUfMcigVrA3dsKJI54Cxo8oXc2E1jNrLEIEmSGkpDJ+R/1ABfsacEO1bPWM5D/J4XcIjr8p0bIiayyFoD8Ye2EzHWNL4wJu9YqR17oEVXCjf7yE1GevEAZ9+pZvZhOnehh/Sfqq/dKmfSCy9ZoM+D3laWPpFVtbGFHnfdj2XveO4xBYKgpPpmDwvt4FtavOuZ5F6Hmwo7PeLPudYu0hqyj1fzgkFPVyDK1G0pA3wyDcnXKH8IUgDzMlx4K/GlMSrhBsQNde5UEkBFhnGHGhPvzwKFnnjqMugCCZ+dFiUgEk2sfYp0sS70MRWXuw5oBZhERD2muiunLwfHcPgs/RQrI2xp2fkJn38XPAn47GNmHqk1qaM+0Im1G5lcBalMCcdiEWl0ckKKLodC5KEuqiVQyUqM=
+  app: protected-waters-38192
+  on:
+    repo: Seahyt/my_app
